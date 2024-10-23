@@ -1,0 +1,4 @@
+2018-01-18 21:55:14,959 - LoggerDemo -INFO - This is info
+2018-01-18 21:55:14,963 - LoggerDemo -WARN - This is warn
+2018-01-18 21:55:14,963 - LoggerDemo -ERROR - This is error
+2018-01-18 21:55:14,963 - LoggerDemo -FATAL - This is fatal

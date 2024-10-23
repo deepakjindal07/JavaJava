@@ -1,0 +1,13 @@
+persona=default; domain=.naukri.com; path=/; secure=true; sameSite=None
+_t_r=1030%2F%2F; domain=.naukri.com; path=/; secure=true; sameSite=None
+test=naukri.com; expires=Tue Nov 04 00:59:49 IST 2025; domain=.naukri.com; path=/; secure=true; sameSite=Lax
+_t_s=direct; expires=Tue Oct 01 00:59:49 IST 2024; domain=.naukri.com; path=/; secure=true; sameSite=None
+_t_ds=5a2bb1c1727638192-45a2bb1c-05a2bb1c; expires=Tue Sep 30 00:59:49 IST 2025; domain=.naukri.com; path=/; secure=true; sameSite=Lax
+J=0; expires=Tue Sep 30 00:59:52 IST 2025; domain=.naukri.com; path=/; secure=true; sameSite=Lax
+ak_bmsc=4E3C03C9F0374AEF94D5BD23D239A62B~000000000000000000000000000000~YAAQJCEPFx0ZBjSSAQAAKsRCPxnGHiOTBUAwe6RPYZyEsKwiAG2pX80C49po1trdAmUleZJZ//FxWfd9bxYtDJ2fANHQPVmA11/YUTXgkerIk/V2+/k8MZjMEEf3ej3mHISHEml9Y05d6W9VduQM1ByJSeFDvnX4EpVI70U9qri6fMOziJSTtf/sGpRu+3n5AtA/fJOQb0nmL6xZayxCmeX32W/HyDfHcI/O0o8i1oXh37Dkla8Y6RV3rSp2kyIIsk2JOyNj8EAN9/V2UM3h+HPzoubiavSMXDV61u7kdLZmqykjDhcDeWGnqCXa3YpLKTXKp3lt2zkpY3O6mEvvwuTtTmfinuGTDTmedxmAZRhvOkXMcz6htSQ8GPVwm3VwH4si2KOlITAjcfOqr/9L9BJReAij7pLbwY+wya3ZPPjpuEDskydlpZ5ZSIIzRhehV3KUjDM5pZkfrzY6XJiHQ4A/3xzKU4G2pHQzzLPtTLxCidpjojc+pC+v/4ijVr/IIKfx8TomIvZP7FHtlljpbSsEh4dcDw==; expires=Mon Sep 30 02:59:49 IST 2024; domain=.naukri.com; path=/; secure=false; sameSite=Lax
+HOWTORT=cl=1727638192507&r=https%3A%2F%2Fwww.naukri.com%2F&nu=https%3A%2F%2Flogin.naukri.com%2FnLogin%2FLogin.php; expires=Mon Sep 30 01:01:52 IST 2024; domain=.naukri.com; path=/; secure=true; sameSite=None
+_ga_K2YBNZVRLL=GS1.1.1727638190.1.0.1727638193.57.0.0; expires=Tue Nov 04 00:59:53 IST 2025; domain=.naukri.com; path=/; secure=false; sameSite=Lax
+_ga_T749QGK6MQ=GS1.1.1727638190.1.0.1727638193.0.0.0; expires=Tue Nov 04 00:59:53 IST 2025; domain=.naukri.com; path=/; secure=false; sameSite=Lax
+_ga=GA1.1.1495528092.1727638190; expires=Tue Nov 04 00:59:50 IST 2025; domain=.naukri.com; path=/; secure=false; sameSite=Lax
+_t_us=66F9AAB0; expires=Mon Sep 30 01:29:49 IST 2024; domain=.naukri.com; path=/; secure=true; sameSite=None
+_gcl_au=1.1.1116560380.1727638191; expires=Sun Dec 29 00:59:51 IST 2024; domain=.naukri.com; path=/; secure=false; sameSite=Lax

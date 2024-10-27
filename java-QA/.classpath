@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="core-java/methods/|core-java/methods/|core-java/|core-java/|java-programs/|java-programs/" kind="src" path=""/>
-	<classpathentry kind="src" path="core-java/methods"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>

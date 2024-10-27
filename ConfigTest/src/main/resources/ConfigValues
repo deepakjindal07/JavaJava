@@ -1,6 +1,0 @@
-browser chrome
-db = EPS_RC
-db1 = EPS_RC
-db2 = EPS_BT
-StartMocking 2
-Something 3

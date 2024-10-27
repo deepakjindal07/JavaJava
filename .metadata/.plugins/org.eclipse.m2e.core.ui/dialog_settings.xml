@@ -44,11 +44,20 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Appium"/>
+			<item value="JDBC"/>
+			<item value="Cucumber"/>
 			<item value="cucumber"/>
 		</list>
 		<list key="name">
+			<item value="Appium Name"/>
+			<item value="JDBC Name"/>
+			<item value="Cucumber Name"/>
 		</list>
 		<list key="artifactId">
+			<item value="Appium"/>
+			<item value="JDBC"/>
+			<item value="Cucumber"/>
 			<item value="cucumber"/>
 		</list>
 		<list key="projectNameTemplate">

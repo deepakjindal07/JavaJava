@@ -1,7 +1,7 @@
 
 package prep4;
 
-public class Derived {
+class Derived {
 	private static void display() {
 		System.out.println("Static or class method from Base");
 	}

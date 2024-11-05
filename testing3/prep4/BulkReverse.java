@@ -26,7 +26,7 @@ public class BulkReverse {
 	}
 
 	private static void CountUsingStream(String sen) {
-		int n = stream.
+	//	int n = stream.
 
 	}
 

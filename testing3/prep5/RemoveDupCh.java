@@ -17,7 +17,6 @@ public class RemoveDupCh {
 		StringBuilder sb = new StringBuilder(); 
 		for( Character c:hs) {
 			//System.out.print(c.toString());
-			0
 			sb = sb.append(c.toString()); 
 			
 		}

@@ -4,7 +4,10 @@ public interface Animal {
 
 	public abstract void eat();
 
-	void sleep();
+	static void sleep() {
+		// TODO Auto-generated method stub
+		
+	}
 
 	public int MAX_AGE = 100;
 

@@ -3,10 +3,10 @@ package pageObject;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Locator;
 
-public class YourPage {
+public class YourPage1 {
     private final Page page;
 
-    public YourPage(Page page) {
+    public YourPage1(Page page) {
         this.page = page;
     }
 

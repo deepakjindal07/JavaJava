@@ -17,14 +17,11 @@ public class Naukri {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.naukri.com/");
-		driver.findElement(By.xpath("//a[@id='login_Layer']"))
-		.click();
+		driver.findElement(By.xpath("//a[@id='login_Layer']")).click();
 		driver.findElement(By.xpath("//input[@placeholder='Enter your active Email ID / Username']"))
-		.sendKeys("deepak.jindal07@gmail.com");
-		driver.findElement(By.xpath("//input[@placeholder='Enter your password']"))
-		.sendKeys("123456@");
-		driver.findElement(By.xpath("//button[@type='submit']"))
-		.click(); //
+				.sendKeys("deepak.jindal07@gmail.com");
+		driver.findElement(By.xpath("//input[@placeholder='Enter your password']")).sendKeys("123456@");
+		driver.findElement(By.xpath("//button[@type='submit']")).click(); //
 
 		// CustCookies.Save(driver);
 
@@ -36,7 +33,8 @@ public class Naukri {
 		List<WebElement> Oneday = new ArrayList<>();
 		Oneday = driver.findElements(By.xpath("(//span[contains(text(),'1 Day Ago')])"));
 
-		for (WebElement L : Oneday) {
+		for (WebElement L : Oneday)
+		{
 			L.click();
 			driver.findElement(By.xpath("//button[@id='apply-button']")).click();
 			driver.close();

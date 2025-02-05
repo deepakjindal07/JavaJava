@@ -1,4 +1,4 @@
-package corePlayWrightSetup;
+package playwrightTests;
 
 import org.testng.annotations.Test;
 
@@ -7,12 +7,14 @@ import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
-import pageObject.*;
+import com.microsoft.playwright.assertions.PlaywrightAssertions;
 
 public class YourTest {
     @Test
-    public void testLogin() throws InterruptedException {
-        try (Playwright playwright = Playwright.create()) {
+    public void testLogin() throws InterruptedException 
+    {
+        try (Playwright playwright = Playwright.create()) 
+        {
             Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
             BrowserContext context = browser.newContext();
             Page page = context.newPage();
@@ -20,11 +22,16 @@ public class YourTest {
             
             //page.reload();
 
-            YourPage yourPage = new YourPage(page);
-            yourPage.getUserNameInput().fill("your_username");
-            yourPage.getPasswordInput().fill("your_password");
+            //YourPage1 yourPage = new YourPage1(page);
+            //yourPage.getUserNameInput().fill("your_username");
+            //yourPage.getPasswordInput().fill("your_password");
             //yourPage.getSubmitButton().click();
-            Thread.sleep(10000);
+            Thread.sleep(5000);
+            
+            //String title = page.title();
+            PlaywrightAssertions.assertThat(page).hasTitle("YouTube");
+
+            System.out.println("Seems Okay");
 
             // ... assertions and other test steps
         }

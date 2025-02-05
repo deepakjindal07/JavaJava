@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Nov 05 17:51:43 IST 2024</td>
+<td>Started on:</td><td>Tue Nov 05 18:10:52 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>45 seconds (45869 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20219 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,159 +67,18 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='corePlayWrightSetup.YourTest.testLogin()'><b>testLogin</b><br>Test class: corePlayWrightSetup.YourTest</td>
-<td><div><pre>com.microsoft.playwright.TimeoutError: Error {
-  message=&apos;Timeout 30000ms exceeded.
-  name=&apos;TimeoutError
-  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\progress.js:78:26)
-    at Frame.fill (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\frames.js:1063:23)
-    at FrameDispatcher.fill (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\frameDispatcher.js:169:30)
-    at FrameDispatcher._handleCommand (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
-- waiting for locator(&quot;#username&quot;)
-
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
-	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
-	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
-	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
-	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
-	at com.microsoft.playwright.Locator.fill(Locator.java:2995)
-	at corePlayWrightSetup.YourTest.testLogin(YourTest.java:24)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: com.microsoft.playwright.TimeoutError: Error {
-  message=&apos;Timeout 30000ms exceeded.
-  name=&apos;TimeoutError
-  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\progress.js:78:26)
-    at Frame.fill (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\frames.js:1063:23)
-    at FrameDispatcher.fill (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\frameDispatcher.js:169:30)
-    at FrameDispatcher._handleCommand (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
-- waiting for locator(&quot;#username&quot;)
-
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
-	... 38 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1241569743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1241569743'><pre>com.microsoft.playwright.TimeoutError: Error {
-  message=&apos;Timeout 30000ms exceeded.
-  name=&apos;TimeoutError
-  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\progress.js:78:26)
-    at Frame.fill (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\frames.js:1063:23)
-    at FrameDispatcher.fill (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\frameDispatcher.js:169:30)
-    at FrameDispatcher._handleCommand (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
-- waiting for locator(&quot;#username&quot;)
-
-	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
-	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
-	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
-	at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
-	at com.microsoft.playwright.impl.FrameImpl.lambda$fill$14(FrameImpl.java:325)
-	at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
-	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
-	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
-	at com.microsoft.playwright.impl.FrameImpl.fill(FrameImpl.java:325)
-	at com.microsoft.playwright.impl.LocatorImpl.fill(LocatorImpl.java:235)
-	at com.microsoft.playwright.Locator.fill(Locator.java:2995)
-	at corePlayWrightSetup.YourTest.testLogin(YourTest.java:24)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: com.microsoft.playwright.TimeoutError: Error {
-  message=&apos;Timeout 30000ms exceeded.
-  name=&apos;TimeoutError
-  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\progress.js:78:26)
-    at Frame.fill (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\frames.js:1063:23)
-    at FrameDispatcher.fill (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\frameDispatcher.js:169:30)
-    at FrameDispatcher._handleCommand (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\Deepak\AppData\Local\Temp\playwright-java-5163026629209399885\package\lib\server\dispatchers\dispatcher.js:361:39)
-}
-Call log:
-- waiting for locator(&quot;#username&quot;)
-
-	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
-	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
-	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
-	... 38 more
-</pre></div></td>
-<td>45</td>
-<td>corePlayWrightSetup.YourTest@6a28ffa4</td></tr>
+<td title='playwrightTests.YourTest.testLogin()'><b>testLogin</b><br>Test class: playwrightTests.YourTest</td>
+<td></td>
+<td>20</td>
+<td>playwrightTests.YourTest@6a28ffa4</td></tr>
 </table><p>
 </body>
 </html>

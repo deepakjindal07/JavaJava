@@ -15,14 +15,11 @@ public class ArrayListSpliterator {
 		list.add("random@gmail.com");
 
 		System.out.println("List of Emails: ");
-		
-		//System.out.println(list);
-		
-		
-		
+
+		// System.out.println(list);
 
 		Spliterator<String> emails = list.spliterator();
 		emails.forEachRemaining((n) -> System.out.println(n));
-		
+
 	}
 }

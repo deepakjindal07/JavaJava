@@ -54,11 +54,11 @@ public class ContactsPageTest extends TestBase{
 		contactsPage.selectContactsByName("Adam Willey");
 	}
 	
-	@DataProvider // use this for Data driven framework
-	public Object[][] getCRMTestData(){
-		Object data[][] = TestUtil.getTestData(sheetName); //this will store the complete data in data[][]
-		return data; // always use return in case of using data and use object[][]
-	}
+//	@DataProvider // use this for Data driven framework
+//	public Object[][] getCRMTestData(){
+//		Object data[][] = 1234; TestUtil.getTestData(sheetName); //this will store the complete data in data[][]
+//		return data; // always use return in case of using data and use object[][]
+//	}
 	
 	@Test(priority=4, dataProvider="getCRMTestData")//to use the excel sheet in test case use this line
 	public void validateCreateNewContact(String title, String firstName, String lastName, String company){ //use same column names which are in excel sheet

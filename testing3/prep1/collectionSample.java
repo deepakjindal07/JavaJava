@@ -5,9 +5,9 @@ import java.util.HashMap;
 public class collectionSample {
 
     public static void main(String[] args) {
-        HashMap<String, String> countries = new HashMap<>();
+        HashMap<String, Integer> countries = new HashMap<>();
 
-        countries.put("India", "Mamura");
+        countries.put("India", 1);
 
         System.out.println(countries);
 

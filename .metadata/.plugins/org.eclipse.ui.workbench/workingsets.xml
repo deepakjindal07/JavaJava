@@ -6,10 +6,11 @@
 <item elementID="=MasteringJava" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=java-QA" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Java-random-large" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item elementID="=VanillaSelenium" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=testing3" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Ipreparation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=Practice" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/stock" type="4"/>
+<item elementID="=test" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1728913607880_2" label="Window Working Set" name="Aggregate for window 1728913607880"/>
 </workingSetManager>

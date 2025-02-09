@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="Stock"/>
 			<item value="PlayRight"/>
 			<item value="restAssured"/>
 			<item value="Appium"/>
@@ -59,6 +60,7 @@
 			<item value="Cucumber Name"/>
 		</list>
 		<list key="artifactId">
+			<item value="stock"/>
 			<item value="playwright"/>
 			<item value="restassured"/>
 			<item value="Appium"/>

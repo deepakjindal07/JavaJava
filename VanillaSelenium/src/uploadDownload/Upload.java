@@ -17,7 +17,7 @@ public class Upload {
 		Thread.sleep(5000);
 
 		// downloadkaro(contr0l);
-		Uploadkaro(contr0l);
+		// Uploadkaro(contr0l);
 
 		Thread.sleep(5000);
 
@@ -26,6 +26,7 @@ public class Upload {
 
 	}
 
+	@SuppressWarnings("unused")
 	private static void Uploadkaro(WebDriver contr0l) {
 		contr0l.get("https://practice.expandtesting.com/upload");
 		WebElement file1 = contr0l.findElement(By.xpath("//input[@data-testid='file-input']"));

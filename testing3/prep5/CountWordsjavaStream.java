@@ -12,11 +12,9 @@ public class CountWordsjavaStream {
 
 		StringBuffer sb = new StringBuffer(str.toString()).reverse();
 
-		Character.toUpperCase(sb.charAt(str.length() - 1));
-
-		char c;
-		c = (sb.charAt(str.length()-1)); 
-		sb.append(sb.charAt(str.length()),"8");
+		char c = Character.toUpperCase(sb.charAt(str.length() - 1));
+		// c = (sb.charAt(str.length()-1));
+		sb.append(c);
 		System.out.println(sb);
 
 	}

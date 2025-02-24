@@ -9,23 +9,20 @@ import java.util.TreeMap;
 public class SortedMapExample {
 
 	public static void main(String[] args) {
+		// Creating a SortedMap (TreeMap maintains sorted order)
 		SortedMap<Integer, String> sm = new TreeMap<>();
 
-		sm.put(new Integer(2), "A");
-		sm.put(new Integer(3), "B");
-		sm.put(new Integer(5), "C");
-		sm.put(new Integer(4), "D");
-		sm.put(new Integer(1), "E");
+		// Adding elements to the map
+		sm.put(2, "A");
+		sm.put(3, "B");
+		sm.put(5, "C");
+		sm.put(4, "D");
+		sm.put(1, "E");
 
-		Set s = sm.entrySet();
-		Iterator itr = s.iterator();
-		while(itr.hasNext()) {
-			Map.Entry<Integer, String> m = (Map.Entry<Integer, String>)itr.next();
-
-			int key = m.getKey();
-			String value = m.getValue();
-
-			System.out.println("Key: " + key + " Value: " + value);
+		// Iterating using for-each loop (modern approach)
+		for (Map.Entry<Integer, String> entry : sm.entrySet())
+		{
+			System.out.println("Key: " + entry.getKey() + " Value: " + entry.getValue());
 		}
 	}
 }

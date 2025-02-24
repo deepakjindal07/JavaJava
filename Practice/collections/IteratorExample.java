@@ -6,26 +6,36 @@ import java.util.Iterator;
 public class IteratorExample {
 
 	public static void main(String[] args) {
-		ArrayList al = new ArrayList();
+		// Create an ArrayList with type safety
+		ArrayList<Integer> al = new ArrayList<>();
 
-		for(int i = 0; i < 10; i++){
+		// Adding numbers 0 to 9
+		for (int i = 0; i < 10; i++)
+		{
 			al.add(i);
 		}
-		System.out.println(al);
 
-		Iterator itr = al.iterator();
+		// Print the original list
+		System.out.println("Original List: " + al);
 
-		while(itr.hasNext()) {
-			int i = (Integer)itr.next();
+		// Using an Iterator to traverse and remove odd numbers
+		Iterator<Integer> itr = al.iterator();
 
-			System.out.print(i + "");
+		while (itr.hasNext())
+		{
+			int i = itr.next(); // Get the next element
 
-			if(i % 2 != 0) {
+			System.out.print(i + " "); // Print the element
+
+			// Remove if the number is odd
+			if (i % 2 != 0)
+			{
 				itr.remove();
 			}
 		}
-		System.out.println();
-		System.out.println(al);
+
+		System.out.println(); // New line
+		System.out.println("Modified List (Even Numbers Only): " + al);
 	}
 
 }

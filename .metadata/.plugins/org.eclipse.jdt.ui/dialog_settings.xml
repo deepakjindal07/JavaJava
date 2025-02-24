@@ -40,7 +40,7 @@
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="2"/>
+		<item key="pageIndex" value="0"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="3"/>
@@ -104,7 +104,7 @@
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="C:\Users\Deepak\Documents\JavaJava"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="2"/>
-		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="GoogleFinanceScraper1 - stock"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="PortfolioReader - stock"/>
 		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="C:\Users\Deepak\Downloads\1.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
 			<item value="C:\Users\Deepak\Downloads\1.jar"/>
@@ -182,5 +182,12 @@
 				<item key="antpath" value=""/>
 			</section>
 		</section>
+	</section>
+	<section name="EditFilterWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="209"/>
+		<item key="DIALOG_Y_ORIGIN" value="-78"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="535"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

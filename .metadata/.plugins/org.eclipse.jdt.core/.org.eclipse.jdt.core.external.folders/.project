@@ -8,11 +8,4 @@
 	</buildSpec>
 	<natures>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>.link2</name>
-			<type>2</type>
-			<location>C:/eclipse/configuration/org.eclipse.osgi/1017/0/.cp</location>
-		</link>
-	</linkedResources>
 </projectDescription>

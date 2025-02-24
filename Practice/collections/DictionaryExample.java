@@ -7,13 +7,14 @@ import java.util.Hashtable;
 public class DictionaryExample {
 
 	public static void main(String[] args) {
-		Dictionary dictionary = new Hashtable();
+		Dictionary<Integer, String> dictionary = new Hashtable<>();
 
 		dictionary.put(100, "Hello");
 		dictionary.put(101, "World");
 
 		// elements() method
-		for(Enumeration i = dictionary.elements(); i.hasMoreElements();) {
+		for (Enumeration<String> i = dictionary.elements(); i.hasMoreElements();)
+		{
 			System.out.println("Value in Dictionary: " + i.nextElement());
 		}
 
@@ -21,7 +22,8 @@ public class DictionaryExample {
 		System.out.println("There is no key-value pair: " + dictionary.isEmpty());
 
 		// keys() method
-		for(Enumeration k = dictionary.keys(); k.hasMoreElements();) {
+		for (Enumeration<String> k = dictionary.elements(); k.hasMoreElements();)
+		{
 			System.out.println("Keys in Dictionary: " + k.nextElement());
 		}
 

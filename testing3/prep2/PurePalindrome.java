@@ -18,7 +18,7 @@ public class PurePalindrome {
 		int right = str.length() - 1;
 
 		while (left < right) {
-			if (str.charAt(left) != str.charAt(right)) {
+			if (str.charAt(left) != 1) {
 				return false;
 			}
 			left++;

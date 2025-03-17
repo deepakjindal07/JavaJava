@@ -1,39 +1,52 @@
 package prep2;
 
-public class CountDup3 {
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
+public class CountDup3 {
 
 	public static void main(String[] args) {
 
+		String str = "hello nash World hello hello";
 
-		String str = "hello nasty World hello hello";
+		HashMap<Character, Integer> map = new HashMap<>();
 
-		// Hello == nasty, world, hello; yes
-		// nasty == world, hello; No
-		// World = Hello; No
-		// Hello =
+		char[] chArr = str.toCharArray();
 
-		String[] modify = str.split(" ");
+		for (char c : chArr)
+		{
 
-		int g = modify.length;
-
-		System.out.println("Words of ch in string" + g);
-		// System.out.println(modify);
-
-		for (int i = 0; i < modify.length; i++) {
-			System.out.println("Outer"+i);
-
-			for (int j = i+1; j < modify.length; j++) {
-				System.out.println("Innerr"+j);
-
-				if (modify[i] .equals(modify[j])) {
-					System.out.println("Mil gya: " + modify[i]);
-				}
-
+			if (!map.containsKey(c))
+			{
+				map.put(c, 1);
+			} else
+			{
+				map.put(c, map.getOrDefault(c, 1) + 1);
 			}
 
 		}
 
-	}
+		/*
+		 * //Iterator Method. Iterator<HashMap.Entry<Character, Integer>> iterator =
+		 * map.entrySet().iterator();
+		 * 
+		 * while (iterator.hasNext()) { HashMap.Entry<Character, Integer> entry =
+		 * iterator.next(); System.out.println(entry.getKey() + " -> " +
+		 * entry.getValue());
+		 * 
+		 * }
+		 * 
+		 * //forEach() map.forEach((key, value) -> System.out.println(key + " -> " +
+		 * value));
+		 */
 
+		//Enhanced for-loop (Simple & Recommended)
+		for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+		    System.out.println(entry.getKey() + " -> " + entry.getValue());
+		}
+		
+		
+		
+	}
 }

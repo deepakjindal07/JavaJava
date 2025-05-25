@@ -23,6 +23,7 @@ class Department {
 		this.name = name;
 		this.students = students;
 	}
+
 	public List<Student> getStudents() {
 		return students;
 	}
@@ -40,9 +41,11 @@ class Institute {
 	public int getTotalStudentsInInstitute() {
 		int noOfStudents = 0;
 		List<Student> students;
-		for(Department dept: departments) {
+		for (Department dept : departments)
+		{
 			students = dept.getStudents();
-			for(Student s: students) {
+			for (Student s : students)
+			{
 				noOfStudents++;
 			}
 		}
@@ -77,38 +80,6 @@ public class Aggregation {
 
 		// creating an instance of Institute.
 		Institute institute = new Institute("BITS", departments);
-		System.out.println("Total students in institute are: "+ institute.getTotalStudentsInInstitute());
+		System.out.println("Total students in institute are: " + institute.getTotalStudentsInInstitute());
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -27,26 +27,24 @@ public class CountDup3 {
 
 		}
 
-		/*
-		 * //Iterator Method. Iterator<HashMap.Entry<Character, Integer>> iterator =
-		 * map.entrySet().iterator();
-		 * 
-		 * while (iterator.hasNext()) { HashMap.Entry<Character, Integer> entry =
-		 * iterator.next(); System.out.println(entry.getKey() + " -> " +
-		 * entry.getValue());
-		 * 
-		 * }
-		 * 
-		 * //forEach() map.forEach((key, value) -> System.out.println(key + " -> " +
-		 * value));
-		 */
+		// Iterator Method.
+		Iterator<HashMap.Entry<Character, Integer>> iterator = map.entrySet().iterator();
 
-		//Enhanced for-loop (Simple & Recommended)
-		for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-		    System.out.println(entry.getKey() + " -> " + entry.getValue());
+		while (iterator.hasNext())
+		{
+			HashMap.Entry<Character, Integer> entry = iterator.next();
+			System.out.println(entry.getKey() + " -> " + entry.getValue());
+
 		}
-		
-		
-		
+
+		// forEach()
+		map.forEach((key, value) -> System.out.println(key + " -> " + value));
+
+		// Enhanced for-loop (Simple & Recommended)
+		for (Map.Entry<Character, Integer> entry : map.entrySet())
+		{
+			System.out.println(entry.getKey() + " -> " + entry.getValue());
+		}
+
 	}
 }

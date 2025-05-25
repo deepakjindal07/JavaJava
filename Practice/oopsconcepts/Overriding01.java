@@ -13,6 +13,7 @@ class Child extends Parent {
 		System.out.println("\nChild Class");
 	}
 }
+
 public class Overriding01 {
 
 	public static void main(String[] args) {

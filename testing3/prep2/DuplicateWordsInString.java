@@ -23,7 +23,7 @@ public class DuplicateWordsInString {
         Map<String, Integer> wordCountMap = new HashMap<>();
 
         for (String word : words) {
-            wordCountMap.put(word, wordCountMap.getOrDefault(word, 0));
+            wordCountMap.put(word, wordCountMap.getOrDefault(word, 0)+1);
 
             	//	.getOrDefault(word, 0) + 1);
         }

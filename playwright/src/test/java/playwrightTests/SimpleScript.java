@@ -1,31 +1,38 @@
 package playwrightTests;
 
 import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
 public class SimpleScript {
 
-	public static void main(String[] args) throws InterruptedException 
-	{
-		
-		try (Playwright playwright = Playwright.create()) 
+	public static void main(String[] args) throws InterruptedException {
+		try (Playwright playwright = Playwright.create())
 		{
-			Browser browser = Playwright.create().firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
-			Page page = browser.newPage();
-			page.navigate("https://demoqa.com/text-box");
+			Browser browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
 
-			// Thread.sleep(5000);
-			page.locator("xpath=(//li[@id='item-0'])[1]").click();
+			// .firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+			BrowserContext context = browser.newContext();
+			Page page1 = context.newPage();
+			page1.navigate("https://example.com");
+			System.out.println("Opened Tab 1");
 
-			System.out.println("IjustClicked");
-			page.locator("xpath=//div[@class='col-md-9 col-sm-12']//input[@id='userName']").fill("Hello");
-			System.out.println("IjustClicked");
+			// Open a new tab
+			Page page2 = context.newPage();
+			page2.navigate("https://demoqa.com");
+			System.out.println("Opened Tab 2");
 
-			page.close();
+			// Get all open tabs (pages)
+			for (Page p : context.pages())
+			{
+				System.out.println("Tab URL: " + p.url());
+			}
 
+			page1.close();
+			page2.close();
+			browser.close(); // Good practice to close the browser as well
 		}
 	}
-
 }

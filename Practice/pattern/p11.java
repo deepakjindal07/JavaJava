@@ -2,16 +2,14 @@
 //DISPLAY THE SAME
 package pattern;
 
-class p11
- {
- public static void main(String args[])
-   {
-   int n=0,i=0;
-   n=args.length;
-   for(i=0;i<n;i++)
-     {
-     System.out.print(args[i]);
-     System.out.print(" ");
-     }
-   }
+class p11 {
+	public static void main(String args[]) {
+		int n = 0, i = 0;
+		n = args.length;
+		for (i = 0; i < n; i++)
+		{
+			System.out.print(args[i]);
+			System.out.print(" ");
+		}
+	}
 }

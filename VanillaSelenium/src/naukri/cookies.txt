@@ -1,0 +1,13 @@
+persona;default;.naukri.com;/;null;true
+_t_r;1030%2F%2F;.naukri.com;/;null;true
+test;naukri.com;.naukri.com;/;Thu Jul 09 22:28:09 IST 2026;true
+_t_s;direct;.naukri.com;/;Thu Jun 05 22:28:09 IST 2025;true
+_t_ds;127be08c1749056290-9127be08c-0127be08c;.naukri.com;/;Thu Jun 04 22:28:09 IST 2026;true
+J;0;.naukri.com;/;Thu Jun 04 22:28:12 IST 2026;true
+ak_bmsc;8F086FDEED346E954B2F34D4D818F26B~000000000000000000000000000000~YAAQzbYRYFLJ3COXAQAARwPhOxy0AU974fcg77crjvLSmb5KZ233BzHBkzpE39/U//VWvfv8o7Mji0VtdWvZlwQT3zbnjhJbR/zvLcwv7OXElFZdl5Jc9qMfbAofjv50TMpvuo94ZNkTfR6OxmAqhSix/WO6YwktKXxPZVl1f8UgQFDOqU9oT3o2zarzZ2fHZS8dq9OoYdG5pYgljSl2Z5ZmVc7Tc989nxKpMyYidqSc+U4knL0WcY3EFJc45SRUPS5/ieUX2ffEICINLAa7plIvt5EC+x/oSqLXyrqXBJvLB1VZFLAKKVSIl7yw2ezLl1BnhA6FJEX7KCVHNI6AideQv9hIbo6O2Dl0g7pk/elEjv2Yo2ZstMAs9QdXMIzy/TzOwmQYqVL68IX7acGOHS+WTerAoEOpBvmXDnXNnSj4o9Vjz+800ZAfosxWcgqewoZ0NAhfnzbuayZRhyRswJEQAFrlqw9Q7V03QUggNB+1nsfDTZdl6+x4BXMIu+w1dhrTG1fVAKSu/u/zvBK7p8U7iQA+wVxLpg==;.naukri.com;/;Thu Jun 05 00:28:09 IST 2025;false
+HOWTORT;cl=1749056292710&r=https%3A%2F%2Fwww.naukri.com%2F&nu=https%3A%2F%2Flogin.naukri.com%2FnLogin%2FLogin.php;.naukri.com;/;Wed Jun 04 22:30:12 IST 2025;true
+_ga_K2YBNZVRLL;GS2.1.s1749056290$o1$g0$t1749056293$j57$l0$h0;.naukri.com;/;Thu Jul 09 22:28:13 IST 2026;false
+_ga_T749QGK6MQ;GS2.1.s1749056290$o1$g0$t1749056293$j57$l0$h0;.naukri.com;/;Thu Jul 09 22:28:13 IST 2026;false
+_ga;GA1.1.1543969845.1749056291;.naukri.com;/;Thu Jul 09 22:28:10 IST 2026;false
+_t_us;68407B22;.naukri.com;/;Wed Jun 04 22:58:09 IST 2025;true
+_gcl_au;1.1.1928613299.1749056291;.naukri.com;/;Tue Sep 02 22:28:11 IST 2025;false

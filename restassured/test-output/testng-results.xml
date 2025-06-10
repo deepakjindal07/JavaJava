@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-24T11:59:01 IST" name="Default suite" finished-at="2025-05-24T11:59:03 IST" duration-ms="2277">
+  <suite started-at="2025-06-09T20:14:30 IST" name="Default suite" finished-at="2025-06-09T20:14:35 IST" duration-ms="4992">
     <groups>
     </groups>
-    <test started-at="2025-05-24T11:59:01 IST" name="Default test" finished-at="2025-05-24T11:59:03 IST" duration-ms="2277">
-      <class name="restassuredTest.Resreq">
-        <test-method signature="first()[pri:0, instance:restassuredTest.Resreq@1a451d4d]" started-at="2025-05-24T11:59:01 IST" name="first" finished-at="2025-05-24T11:59:03 IST" duration-ms="2223" status="PASS">
+    <test started-at="2025-06-09T20:14:30 IST" name="Default test" finished-at="2025-06-09T20:14:35 IST" duration-ms="4992">
+      <class name="gradPlanner.SubAuditPerformance">
+        <test-method signature="GetPersonByINumber()[pri:0, instance:gradPlanner.SubAuditPerformance@3ce1e309]" started-at="2025-06-09T20:14:30 IST" name="GetPersonByINumber" finished-at="2025-06-09T20:14:35 IST" duration-ms="4950" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- first -->
-      </class> <!-- restassuredTest.Resreq -->
+        </test-method> <!-- GetPersonByINumber -->
+      </class> <!-- gradPlanner.SubAuditPerformance -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,21 @@
+_sp_ses.3b8d;*;www.shine.com;/;Wed Jun 04 22:08:46 IST 2025;false
+_cpem_;JEENQQ9YTV4bXVcTHFxCdSdJCVgCHQBbH09zVhhdGwYjEBoCXUETWAcG;.shine.com;/;null;false
+sessionid;a8tel9f7q868ljryl7uemhzss0a2hvgl;www.shine.com;/;null;false
+newSearch;true;www.shine.com;/;null;false
+_ga_JZ8J5F2GFY;GS2.1.s1749053320$o1$g0$t1749053320$j60$l0$h0;.shine.com;/;Thu Jul 09 21:38:40 IST 2026;false
+_hjSession_5021169;eyJpZCI6ImZjZjc0M2ZiLTEzNzgtNDE3MC1hZmUzLTQ4OTFjZTYzYTAwYiIsImMiOjE3NDkwNTMzMTU1ODAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=;.shine.com;/;Wed Jun 04 22:08:35 IST 2025;true
+ppid;f3a6efd554dc65f431494b9f203979fa1e0aff274fabe0bd9447a485fc618059;.shine.com;/;Thu Jun 04 21:38:46 IST 2026;true
+_gid;GA1.2.1348686198.1749053315;.shine.com;/;Thu Jun 05 21:38:40 IST 2025;false
+_userid_;3762395;www.shine.com;/;null;false
+_psc_;"{'preferred_location': '\"Ghaziabad\" \"Noida\" \"Delhi\"'\054 'preferred_industry': '18'\054 'preferred_job_title': '\"Qa Automation Engineer\" \"Automation Test Engineer\"'}";www.shine.com;/;Mon Jun 29 21:38:37 IST 2026;false
+_em_;"deepak.jindal07@gmail.com|Deepak|Kumar";.shine.com;/;null;false
+echo_fp;7d85df30-d091-442f-864d-78d2f6b5db23;.shine.com;/;Thu Jun 04 21:38:46 IST 2026;true
+_gat;1;.shine.com;/;Wed Jun 04 21:39:40 IST 2025;false
+_hjSessionUser_5021169;eyJpZCI6IjdkNjM3ZTYzLTFiOWUtNTFiNy04OWY0LTVhZGRlYmVjODU1MCIsImNyZWF0ZWQiOjE3NDkwNTMzMTU1NzksImV4aXN0aW5nIjp0cnVlfQ==;.shine.com;/;Thu Jun 04 21:38:38 IST 2026;true
+_ga;GA1.2.1544485906.1749053315;.shine.com;/;Thu Jul 09 21:38:40 IST 2026;false
+_fbp;fb.1.1749053325529.733271129379642400;.shine.com;/;Tue Sep 02 21:38:45 IST 2025;false
+_gat_gtag_UA_3537905_1;1;.shine.com;/;Wed Jun 04 21:39:34 IST 2025;false
+_sp_id.3b8d;c6ed1efc-7793-4101-b587-a744a28b3f18.1749053314.1.1749053326.1749053314.d49f4b5a-67c2-4ce4-8454-312d1bd879c8;www.shine.com;/;Thu Jul 09 21:38:46 IST 2026;false
+_kmsi_;"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLFSIQMhsPcUMPXExYQQ9jAA0pRytQWi43U0MQc3EwRQdDcUV0SlBtGFUKGwE=";www.shine.com;/;Thu Jun 04 21:38:37 IST 2026;false
+csrftoken;OKYGPqthzSSaSPdXMoPvhtnhTzdtqrIdXTfgB5RGHwTgdFuWtp8Z4KkF8opjmxn5;www.shine.com;/;Wed Jun 03 21:38:37 IST 2026;false
+G_ENABLED_IDPS;google;.www.shine.com;/;Thu Jul 09 21:38:35 IST 2026;false

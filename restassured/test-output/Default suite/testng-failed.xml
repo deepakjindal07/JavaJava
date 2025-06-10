@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassured.CheckAPIStatus2">
+      <class name="gradPlanner.SubAuditPerformance">
         <methods>
-          <include name="testAPIStatusCode"/>
+          <include name="GetPersonByINumber"/>
         </methods>
-      </class> <!-- restassured.CheckAPIStatus2 -->
+      </class> <!-- gradPlanner.SubAuditPerformance -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

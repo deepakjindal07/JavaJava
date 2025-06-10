@@ -19,7 +19,7 @@ public class RachaelLogin {
 	public static void main(String[] args) throws IOException {
 
 		RachaelLogin();
-		RachaelMultiCheck(Inumbers);
+		//RachaelMultiCheck(Inumbers);
 	}
 
 	public static void RachaelLogin() {
@@ -33,7 +33,7 @@ public class RachaelLogin {
 		System.out.println(
 				"Rachael Login Reponse :" + response.getStatusCode() + " Response Body :" + response.asString());
 		saveATICookiesToFile("cookies/RachaelBYUIForms.txt", byuiFormsCookie);
-
+0p
 	}
 
 	public static void RachaelMultiCheck(List<String> Inumbers) throws IOException {

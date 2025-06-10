@@ -2,12 +2,10 @@ package arrays;
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.commons.lang.ArrayUtils;
-
 public class ArraysClass {
 
 	public static void main(String[] args) {
-		int arr[] = {4, 6, 5, 8, 3, 9, 7, 3, 2, 8};
+		Integer arr[] = {4, 6, 5, 8, 3, 9, 7, 3, 2, 8};
 		
 		System.out.println("Arrays: " + Arrays.toString(arr));
 		
@@ -24,9 +22,9 @@ public class ArraysClass {
 		Arrays.fill(arr, 0, 3, 5);
 		System.out.println("Arrays filled with 5 from 0 to 3: "+ Arrays.toString(arr));*/
 		
-		Integer[] newArr = ArrayUtils.toObject(arr);
+		//Integer[] newArr = ArrayUtils.toObject(arr);
 		
-		List<Integer> al = Arrays.asList(newArr);
+		List<Integer> al = Arrays.asList(arr);
 		System.out.println("As a List() :" + al);
 	}
 }

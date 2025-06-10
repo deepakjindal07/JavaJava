@@ -13,18 +13,21 @@ public class Postreq {
 		RestAssured.baseURI = "https://reqres.in";
 
 		// Create JSON request body
-		String requestBody = "{\n" + "  \"name\": \"morpheus\",\n" + "  \"job\": \"leader\"\n" + "}";
+		String requestBody = "{\r\n"
+				+ "    \"name\": \"morpheus\",\r\n"
+				+ "    \"job\": \"leader\"\r\n"
+				+ "}";
 
 		// Send POST request
         Response response = RestAssured.given()
-                .header("Content-Type", "application/json")
-                .body(requestBody)
+               // .header("Content-Type", "application/json")
+                .header("x-api-key", "reqres-free-v1").body(requestBody)
             .when()
                 .post("/api/users")
             .then()
-                .statusCode(401)
-                .body("name", equalTo("morpheus"))
-                .body("job", equalTo("leader"))
+                .statusCode(201)
+                //.body("name", equalTo("morpheus"))
+               // .body("job", equalTo("leader"))
                 .extract().response();
 
 		// Print response

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="gradPlanner.SubAuditPerformance">
+      <class name="iplan_Performance.FetchMajor">
         <methods>
-          <include name="GetPersonByINumber"/>
+          <include name="FetchMajorTest"/>
         </methods>
-      </class> <!-- gradPlanner.SubAuditPerformance -->
+      </class> <!-- iplan_Performance.FetchMajor -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

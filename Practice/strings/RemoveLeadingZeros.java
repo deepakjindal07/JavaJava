@@ -4,7 +4,8 @@ public class RemoveLeadingZeros {
 
 	public static String removeZero(String str) {
 		int i = 0;
-		while(str.charAt(i) == '0') {
+		while (str.charAt(i) == '0')
+		{
 			i++;
 		}
 

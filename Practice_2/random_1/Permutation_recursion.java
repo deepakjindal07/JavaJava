@@ -18,6 +18,7 @@ public class Permutation_recursion {
 		{
 			char ch = str.charAt(i);
 			String remaining = str.substring(0, i) + str.substring(i + 1);
+			
 			permute(remaining, result + ch);
 		}
 	}

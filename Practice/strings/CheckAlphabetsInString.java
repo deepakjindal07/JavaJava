@@ -7,7 +7,7 @@ public class CheckAlphabetsInString {
 	}
 
 	public static void main(String[] args) {
-		String str = "Hello";
+		String str = "Hello12";
 		System.out.println("Input: "+str);
 		System.out.println("Output: "+isStringContainsAlphabet(str));
 	}

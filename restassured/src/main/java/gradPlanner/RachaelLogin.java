@@ -1,4 +1,4 @@
-package restassured;
+package gradPlanner;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -18,11 +18,11 @@ public class RachaelLogin {
 
 	public static void main(String[] args) throws IOException {
 
-		RachaelLogin();
+		RachaelLogin1();
 		//RachaelMultiCheck(Inumbers);
 	}
 
-	public static void RachaelLogin() {
+	public static void RachaelLogin1() {
 		Response response = RestAssured
 
 				.given().header("X-Byui-Api-Key", "LHGGiZaS8QgLV67qp5R3").formParam("username", "EPSQA")
@@ -33,7 +33,6 @@ public class RachaelLogin {
 		System.out.println(
 				"Rachael Login Reponse :" + response.getStatusCode() + " Response Body :" + response.asString());
 		saveATICookiesToFile("cookies/RachaelBYUIForms.txt", byuiFormsCookie);
-0p
 	}
 
 	public static void RachaelMultiCheck(List<String> Inumbers) throws IOException {

@@ -27,7 +27,7 @@ public class Overriding01 {
 		//Child child = new Child();
 		//Parent parentTYpe = (Parent)child; // parentType.show();
 
-		((Child) parentTYpe).babyCry();
+		//((Child) parentTYpe).babyCry();
 	}
 
 }

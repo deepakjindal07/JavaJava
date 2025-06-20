@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Deepak\Documents\JavaJava\Cucumber"/>
 			<item value="C:\Users\Deepak\Documents\GitHub2\CucuDemo"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -44,6 +45,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="cucumber2"/>
+			<item value="cucumber1"/>
 			<item value="Logger"/>
 			<item value="sample"/>
 			<item value="Stock"/>
@@ -62,6 +65,8 @@
 			<item value="Cucumber Name"/>
 		</list>
 		<list key="artifactId">
+			<item value="cucumber2"/>
+			<item value="cucumber1"/>
 			<item value="logger"/>
 			<item value="Sample"/>
 			<item value="stock"/>

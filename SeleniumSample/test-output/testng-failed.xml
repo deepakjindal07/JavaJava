@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumTest.SimpleDropDown">
+      <class name="seleniumTest.Action_2">
         <methods>
-          <include name="newFrame"/>
-          <include name="teardown"/>
-          <include name="setup"/>
+          <include name="actionsClass"/>
         </methods>
-      </class> <!-- seleniumTest.SimpleDropDown -->
+      </class> <!-- seleniumTest.Action_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

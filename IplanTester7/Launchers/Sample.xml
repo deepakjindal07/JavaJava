@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Check Multiple Inumbers for GP/SP" preserve-order="true">
+
+
+	<test name="SampleTest">
+		<classes>
+			<class name="com.testpages.ReviewStudentGradPlan" />
+		</classes>
+	</test>
+
+<!--	<test name="test">-->
+<!--		<classes>-->
+<!--			<class name="com.studentside.CombinedTestTextFile" />-->
+<!--		</classes>-->
+<!--	</test>-->
+
+</suite>

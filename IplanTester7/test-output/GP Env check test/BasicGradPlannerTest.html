@@ -1,0 +1,225 @@
+<html>
+<head>
+<title>TestNG:  BasicGradPlannerTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>BasicGradPlannerTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 04 21:56:29 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (129 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.studentside.CombinedTestTextFile.TestSetup()'><b>TestSetup</b><br>Test class: com.studentside.CombinedTestTextFile</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5874c77190a3d391698a904611b1ae8b, addCookie {cookie=_ei=QyCHQfKAUuqpZMxCeIOyU1Rc1pdxm-TjNnkAhJsv4bWg-TLU-Gt-aybicjcR_PF2oJgyYsjm0MNGfs2YV6XEH9R6VtZoNqx3RINer6afXP4WvFAge7yqFqNjSbeFwxK8hJWvJjWnZoz41kMq9mpzhsrzS_ZydIWQxj_izPqjk6C2mw4pU5vYzm_ALXuart7nClxSXOsJZuWuAyvWzqngsz0y5VgXTFm9e7_tbEcxwAAO7gEn2-Hi_6o_pWuwX2jDdSdJku5tAc119no5nd8WnRoVQXgxuwQMXdAljpcwp9ue4UffazjWWYFkAdJxGArASaZLT4TKEU-lfr9Y3gyfIl-aBlS1iH4PJdAvs_WSDwyyH33i_1QN_LLR-gkszx_FitFMkGI02ZjFFOh_W5P5gy8PBOunpopE8gyjCUyxi1PbxO4yfJF7RyDpIDVWqThrgeaUc0mhQmvwDNe2jM3AiFNkskDKIPmLaekcNfJumeuPDuMFvxO-ZvjwNmfNGH9gV8KKdcyew-HDFDHpl59JQlwusD-ZOxm4XzFqT0hAgib5ObVu9RzeUK3vkddSFhb1ckX1PXP6nGdldGQmTGUOF1hrAYW2-x85JjTNFfVc7PPk_QBUN7tHXyPgGRKOUqaBnQsFG3Zvdc0OORZJsltqtriAsZAZ1DiGd9QbC3G8yBlMt5vpWj2VbSjcqsMGmg7CMeCtsJAXbBLDTS6IeeKkRsCXwZ_r2ywtv8IkKu05Qirxiz0Cl8EGmnR6v1-5YzLbFBk0M1_KkdxJiGiapx9fWmiidA0SVP6EM50alKClA6cEOFGJBf8Q9tTrH5RE55KtzF_6Htjx7ssyiQfJkbe7SnkZW5xeTLFalNz9yeFWRmGeZDW05cEpO6UwkSV7vRlqIWw9PuzZmNhy-wmpnQpoITht4tR0AGXGkPA6BJhkm_iGTPoLz-71CeOmaSc26NYfjoAnrsaZk92Qy-vumiUVZQ5nJzX_dcJ9-wOom4hbita6S4UWobAHaBmBOohGvkMMgqT-b5UFNu5mG58psR7KihEeSHnzPFtHc7dz_PbcTTr87NczJ1L-DqwzfopQuYA6Yf0200jOvd9LSYSE5obdf9oViRvzg-BogQVS9Hy30JWoPFEF8wpLENrkvkjJybxWTEZ9hzB59QIJeNthuj8pOjtuebRCq9UpcC8jFc3S097eAK3comuGgO2FprlVz9chAYzpP-TXA36xYFHjilDLBoG2nl9HqWTi0uC1lqJ2lkqKofsGf2HoA3bV47rWCSbn-glF1FXdoanCmvCpyXvymrnRp1d4eS8-mn5jIyhj4W5lQ3NKkYVJiM3Pr1p6mGDX6ddv8fJX41hsJGYu6S1vnGdUaGK8-PE58kyZWrzK4PVgjMNKCWKSrGw-wiwirapJD4OhSM8_CS3C_N2JfPz0Acb4djyjHPeJa2VBDvzrEM8EgxXTMgrwuwgJU1ab4Bvl6UYE-eCzXV8idSJ4E_OwUoKFuvawrPVe6mmFlBPNMQrqwVsFqhuZMNJ5NTWTlqYenpaCXA; path=/; domain=byu-eps-bt.excelindia.com; sameSite=Lax}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\EXCELS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50162/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5874c77190a3d391698a904611b1ae8b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:840)
+	at com.codesetup.CommonUtils.loadCookiesFromFile(CommonUtils.java:226)
+	at com.studentside.CombinedTestTextFile.TestSetup(CombinedTestTextFile.java:29)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1404834600", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1404834600'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5874c77190a3d391698a904611b1ae8b, addCookie {cookie=_ei=QyCHQfKAUuqpZMxCeIOyU1Rc1pdxm-TjNnkAhJsv4bWg-TLU-Gt-aybicjcR_PF2oJgyYsjm0MNGfs2YV6XEH9R6VtZoNqx3RINer6afXP4WvFAge7yqFqNjSbeFwxK8hJWvJjWnZoz41kMq9mpzhsrzS_ZydIWQxj_izPqjk6C2mw4pU5vYzm_ALXuart7nClxSXOsJZuWuAyvWzqngsz0y5VgXTFm9e7_tbEcxwAAO7gEn2-Hi_6o_pWuwX2jDdSdJku5tAc119no5nd8WnRoVQXgxuwQMXdAljpcwp9ue4UffazjWWYFkAdJxGArASaZLT4TKEU-lfr9Y3gyfIl-aBlS1iH4PJdAvs_WSDwyyH33i_1QN_LLR-gkszx_FitFMkGI02ZjFFOh_W5P5gy8PBOunpopE8gyjCUyxi1PbxO4yfJF7RyDpIDVWqThrgeaUc0mhQmvwDNe2jM3AiFNkskDKIPmLaekcNfJumeuPDuMFvxO-ZvjwNmfNGH9gV8KKdcyew-HDFDHpl59JQlwusD-ZOxm4XzFqT0hAgib5ObVu9RzeUK3vkddSFhb1ckX1PXP6nGdldGQmTGUOF1hrAYW2-x85JjTNFfVc7PPk_QBUN7tHXyPgGRKOUqaBnQsFG3Zvdc0OORZJsltqtriAsZAZ1DiGd9QbC3G8yBlMt5vpWj2VbSjcqsMGmg7CMeCtsJAXbBLDTS6IeeKkRsCXwZ_r2ywtv8IkKu05Qirxiz0Cl8EGmnR6v1-5YzLbFBk0M1_KkdxJiGiapx9fWmiidA0SVP6EM50alKClA6cEOFGJBf8Q9tTrH5RE55KtzF_6Htjx7ssyiQfJkbe7SnkZW5xeTLFalNz9yeFWRmGeZDW05cEpO6UwkSV7vRlqIWw9PuzZmNhy-wmpnQpoITht4tR0AGXGkPA6BJhkm_iGTPoLz-71CeOmaSc26NYfjoAnrsaZk92Qy-vumiUVZQ5nJzX_dcJ9-wOom4hbita6S4UWobAHaBmBOohGvkMMgqT-b5UFNu5mG58psR7KihEeSHnzPFtHc7dz_PbcTTr87NczJ1L-DqwzfopQuYA6Yf0200jOvd9LSYSE5obdf9oViRvzg-BogQVS9Hy30JWoPFEF8wpLENrkvkjJybxWTEZ9hzB59QIJeNthuj8pOjtuebRCq9UpcC8jFc3S097eAK3comuGgO2FprlVz9chAYzpP-TXA36xYFHjilDLBoG2nl9HqWTi0uC1lqJ2lkqKofsGf2HoA3bV47rWCSbn-glF1FXdoanCmvCpyXvymrnRp1d4eS8-mn5jIyhj4W5lQ3NKkYVJiM3Pr1p6mGDX6ddv8fJX41hsJGYu6S1vnGdUaGK8-PE58kyZWrzK4PVgjMNKCWKSrGw-wiwirapJD4OhSM8_CS3C_N2JfPz0Acb4djyjHPeJa2VBDvzrEM8EgxXTMgrwuwgJU1ab4Bvl6UYE-eCzXV8idSJ4E_OwUoKFuvawrPVe6mmFlBPNMQrqwVsFqhuZMNJ5NTWTlqYenpaCXA; path=/; domain=byu-eps-bt.excelindia.com; sameSite=Lax}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\EXCELS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50162/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5874c77190a3d391698a904611b1ae8b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:840)
+	at com.codesetup.CommonUtils.loadCookiesFromFile(CommonUtils.java:226)
+	at com.studentside.CombinedTestTextFile.TestSetup(CombinedTestTextFile.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.studentside.CombinedTestTextFile@765d7657</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.studentside.CombinedTestTextFile.openDeclaredPlan()'><b>openDeclaredPlan</b><br>Test class: com.studentside.CombinedTestTextFile<br>Parameters: src/main/resources/numbers.txt</td>
+<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5874c77190a3d391698a904611b1ae8b, addCookie {cookie=_ei=QyCHQfKAUuqpZMxCeIOyU1Rc1pdxm-TjNnkAhJsv4bWg-TLU-Gt-aybicjcR_PF2oJgyYsjm0MNGfs2YV6XEH9R6VtZoNqx3RINer6afXP4WvFAge7yqFqNjSbeFwxK8hJWvJjWnZoz41kMq9mpzhsrzS_ZydIWQxj_izPqjk6C2mw4pU5vYzm_ALXuart7nClxSXOsJZuWuAyvWzqngsz0y5VgXTFm9e7_tbEcxwAAO7gEn2-Hi_6o_pWuwX2jDdSdJku5tAc119no5nd8WnRoVQXgxuwQMXdAljpcwp9ue4UffazjWWYFkAdJxGArASaZLT4TKEU-lfr9Y3gyfIl-aBlS1iH4PJdAvs_WSDwyyH33i_1QN_LLR-gkszx_FitFMkGI02ZjFFOh_W5P5gy8PBOunpopE8gyjCUyxi1PbxO4yfJF7RyDpIDVWqThrgeaUc0mhQmvwDNe2jM3AiFNkskDKIPmLaekcNfJumeuPDuMFvxO-ZvjwNmfNGH9gV8KKdcyew-HDFDHpl59JQlwusD-ZOxm4XzFqT0hAgib5ObVu9RzeUK3vkddSFhb1ckX1PXP6nGdldGQmTGUOF1hrAYW2-x85JjTNFfVc7PPk_QBUN7tHXyPgGRKOUqaBnQsFG3Zvdc0OORZJsltqtriAsZAZ1DiGd9QbC3G8yBlMt5vpWj2VbSjcqsMGmg7CMeCtsJAXbBLDTS6IeeKkRsCXwZ_r2ywtv8IkKu05Qirxiz0Cl8EGmnR6v1-5YzLbFBk0M1_KkdxJiGiapx9fWmiidA0SVP6EM50alKClA6cEOFGJBf8Q9tTrH5RE55KtzF_6Htjx7ssyiQfJkbe7SnkZW5xeTLFalNz9yeFWRmGeZDW05cEpO6UwkSV7vRlqIWw9PuzZmNhy-wmpnQpoITht4tR0AGXGkPA6BJhkm_iGTPoLz-71CeOmaSc26NYfjoAnrsaZk92Qy-vumiUVZQ5nJzX_dcJ9-wOom4hbita6S4UWobAHaBmBOohGvkMMgqT-b5UFNu5mG58psR7KihEeSHnzPFtHc7dz_PbcTTr87NczJ1L-DqwzfopQuYA6Yf0200jOvd9LSYSE5obdf9oViRvzg-BogQVS9Hy30JWoPFEF8wpLENrkvkjJybxWTEZ9hzB59QIJeNthuj8pOjtuebRCq9UpcC8jFc3S097eAK3comuGgO2FprlVz9chAYzpP-TXA36xYFHjilDLBoG2nl9HqWTi0uC1lqJ2lkqKofsGf2HoA3bV47rWCSbn-glF1FXdoanCmvCpyXvymrnRp1d4eS8-mn5jIyhj4W5lQ3NKkYVJiM3Pr1p6mGDX6ddv8fJX41hsJGYu6S1vnGdUaGK8-PE58kyZWrzK4PVgjMNKCWKSrGw-wiwirapJD4OhSM8_CS3C_N2JfPz0Acb4djyjHPeJa2VBDvzrEM8EgxXTMgrwuwgJU1ab4Bvl6UYE-eCzXV8idSJ4E_OwUoKFuvawrPVe6mmFlBPNMQrqwVsFqhuZMNJ5NTWTlqYenpaCXA; path=/; domain=byu-eps-bt.excelindia.com; sameSite=Lax}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\EXCELS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50162/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5874c77190a3d391698a904611b1ae8b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:840)
+	at com.codesetup.CommonUtils.loadCookiesFromFile(CommonUtils.java:226)
+	at com.studentside.CombinedTestTextFile.TestSetup(CombinedTestTextFile.java:29)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1405055124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1405055124'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5874c77190a3d391698a904611b1ae8b, addCookie {cookie=_ei=QyCHQfKAUuqpZMxCeIOyU1Rc1pdxm-TjNnkAhJsv4bWg-TLU-Gt-aybicjcR_PF2oJgyYsjm0MNGfs2YV6XEH9R6VtZoNqx3RINer6afXP4WvFAge7yqFqNjSbeFwxK8hJWvJjWnZoz41kMq9mpzhsrzS_ZydIWQxj_izPqjk6C2mw4pU5vYzm_ALXuart7nClxSXOsJZuWuAyvWzqngsz0y5VgXTFm9e7_tbEcxwAAO7gEn2-Hi_6o_pWuwX2jDdSdJku5tAc119no5nd8WnRoVQXgxuwQMXdAljpcwp9ue4UffazjWWYFkAdJxGArASaZLT4TKEU-lfr9Y3gyfIl-aBlS1iH4PJdAvs_WSDwyyH33i_1QN_LLR-gkszx_FitFMkGI02ZjFFOh_W5P5gy8PBOunpopE8gyjCUyxi1PbxO4yfJF7RyDpIDVWqThrgeaUc0mhQmvwDNe2jM3AiFNkskDKIPmLaekcNfJumeuPDuMFvxO-ZvjwNmfNGH9gV8KKdcyew-HDFDHpl59JQlwusD-ZOxm4XzFqT0hAgib5ObVu9RzeUK3vkddSFhb1ckX1PXP6nGdldGQmTGUOF1hrAYW2-x85JjTNFfVc7PPk_QBUN7tHXyPgGRKOUqaBnQsFG3Zvdc0OORZJsltqtriAsZAZ1DiGd9QbC3G8yBlMt5vpWj2VbSjcqsMGmg7CMeCtsJAXbBLDTS6IeeKkRsCXwZ_r2ywtv8IkKu05Qirxiz0Cl8EGmnR6v1-5YzLbFBk0M1_KkdxJiGiapx9fWmiidA0SVP6EM50alKClA6cEOFGJBf8Q9tTrH5RE55KtzF_6Htjx7ssyiQfJkbe7SnkZW5xeTLFalNz9yeFWRmGeZDW05cEpO6UwkSV7vRlqIWw9PuzZmNhy-wmpnQpoITht4tR0AGXGkPA6BJhkm_iGTPoLz-71CeOmaSc26NYfjoAnrsaZk92Qy-vumiUVZQ5nJzX_dcJ9-wOom4hbita6S4UWobAHaBmBOohGvkMMgqT-b5UFNu5mG58psR7KihEeSHnzPFtHc7dz_PbcTTr87NczJ1L-DqwzfopQuYA6Yf0200jOvd9LSYSE5obdf9oViRvzg-BogQVS9Hy30JWoPFEF8wpLENrkvkjJybxWTEZ9hzB59QIJeNthuj8pOjtuebRCq9UpcC8jFc3S097eAK3comuGgO2FprlVz9chAYzpP-TXA36xYFHjilDLBoG2nl9HqWTi0uC1lqJ2lkqKofsGf2HoA3bV47rWCSbn-glF1FXdoanCmvCpyXvymrnRp1d4eS8-mn5jIyhj4W5lQ3NKkYVJiM3Pr1p6mGDX6ddv8fJX41hsJGYu6S1vnGdUaGK8-PE58kyZWrzK4PVgjMNKCWKSrGw-wiwirapJD4OhSM8_CS3C_N2JfPz0Acb4djyjHPeJa2VBDvzrEM8EgxXTMgrwuwgJU1ab4Bvl6UYE-eCzXV8idSJ4E_OwUoKFuvawrPVe6mmFlBPNMQrqwVsFqhuZMNJ5NTWTlqYenpaCXA; path=/; domain=byu-eps-bt.excelindia.com; sameSite=Lax}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\EXCELS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50162}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50162/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5874c77190a3d391698a904611b1ae8b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.addCookie(RemoteWebDriver.java:840)
+	at com.codesetup.CommonUtils.loadCookiesFromFile(CommonUtils.java:226)
+	at com.studentside.CombinedTestTextFile.TestSetup(CombinedTestTextFile.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+	at org.testng.TestRunner.run(TestRunner.java:589)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.studentside.CombinedTestTextFile@765d7657</td></tr>
+</table><p>
+</body>
+</html>

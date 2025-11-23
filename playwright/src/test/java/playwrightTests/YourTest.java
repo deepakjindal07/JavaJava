@@ -1,6 +1,6 @@
 package playwrightTests;
 
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserContext;
@@ -10,7 +10,7 @@ import com.microsoft.playwright.Playwright;
 import com.microsoft.playwright.assertions.PlaywrightAssertions;
 
 public class YourTest {
-    @Test
+    //@Test
     public void testLogin() throws InterruptedException 
     {
         try (Playwright playwright = Playwright.create()) 

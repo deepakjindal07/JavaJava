@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Check Multiple Inumbers for GP/SP" preserve-order="true">
+	<!--	<parameter name="env" value="TEST" />-->
+
+	<!--	<listeners>-->
+	<!--		<listener class-name="com.TestUtil.WebEventListeners" />-->
+	<!--	</listeners>-->
+
+
+	<!--	<test name="GetLoginCookie">-->
+	<!--		<classes>-->
+	<!--			<class name="com.codesetup.GetLoginCookie" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+	<!--	<suite-files>-->
+	<!--		<suite-file-->
+	<!--
+	path="C:\Users\ExcelSoft\Desktop\eclipse-workspace\GradPlannerV5\Launchers\AdminPages.xml"
+	/>-->
+	<!--	</suite-files>-->
+
+
+	<test name="Continous Testing">
+		<classes>
+			<class name="com.studentside.CombinedTestTextFile" />
+		</classes>
+	</test>
+
+	<!--		<test name="Complete basic test on SP">-->
+	<!--			<classes>-->
+	<!--				<class name="com.studentside.BasicSectionPlannerTest" />-->
+	<!--			</classes>-->
+	<!--		</test>-->
+
+</suite>

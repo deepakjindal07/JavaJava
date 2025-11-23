@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login - Cookie getter">
+	<!-- 	<listeners> -->
+	<!-- 		<listener class-name="com.TestUtil.WebEventListeners" /> -->
+	<!-- 	</listeners> -->
+
+
+	<!--	<test name="GetCookie for RC">-->
+	<!--		<parameter name="Environment" value="RC" />-->
+	<!--		<classes>-->
+	<!--			<class name="com.codesetup.OldCookieCapture" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+	<!--	<test name="GetCookie for SIRIUS">-->
+	<!--		<parameter name="Environment" value="SIRIUS" />-->
+	<!--		<classes>-->
+	<!--			<class name="com.codesetup.OldCookieCapture" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+	<test name="GetCookie for Core">
+		<parameter name="Environment" value="Core" />
+		<classes>
+			<class name="com.codesetup.OldCookieCapture" />
+		</classes>
+	</test>
+
+	<!--	<test name="GetCookie for Prod">-->
+	<!--		<parameter name="Environment" value="Prod" />-->
+	<!--		<classes>-->
+	<!--			<class name="com.codesetup.OldCookieCapture" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+	<!--	<test name="GetCookie for BT">-->
+	<!--		<parameter name="Environment" value="BT" />-->
+	<!--		<classes>-->
+	<!--			<class name="com.codesetup.OldCookieCapture" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+	<!--	<test name="GetCookie for TEST">-->
+	<!--		<parameter name="Environment" value="TEST" />-->
+	<!--		<classes>-->
+	<!--			<class name="com.codesetup.OldCookieCapture" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+
+</suite>
+ 

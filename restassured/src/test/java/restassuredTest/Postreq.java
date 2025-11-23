@@ -2,8 +2,6 @@ package restassuredTest;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import static org.hamcrest.Matchers.equalTo;
-
 
 public class Postreq {
 
@@ -21,7 +19,8 @@ public class Postreq {
 		// Send POST request
         Response response = RestAssured.given()
                // .header("Content-Type", "application/json")
-                .header("x-api-key", "reqres-free-v1").body(requestBody)
+                .header("x-api-key", "reqres-free-v1")
+                .body(requestBody)
             .when()
                 .post("/api/users")
             .then()

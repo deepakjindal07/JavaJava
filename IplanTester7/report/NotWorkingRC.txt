@@ -1,0 +1,100 @@
+Date:Time 2024-08-29 17:54:38
+496443159 is not working: Reason: 
+Index 1 out of bounds for length 1
+
+
+Date:Time 2024-08-29 17:54:52
+294782133 is not working: Reason: 
+Index 1 out of bounds for length 1
+
+
+Date:Time 2024-08-29 17:55:06
+122071980 is not working: Reason: 
+Index 1 out of bounds for length 1
+
+
+Date:Time 2024-08-29 17:55:47
+102139399 is not working: Reason: 
+Index 1 out of bounds for length 1
+
+
+Date:Time 2024-08-29 17:56:01
+331788418 is not working: Reason: 
+Index 1 out of bounds for length 1
+
+
+Date:Time 2024-08-29 17:56:15
+899470712 is not working: Reason: 
+Index 1 out of bounds for length 1
+
+
+Date:Time 2024-08-29 17:56:29
+595524975 is not working: Reason: 
+Index 1 out of bounds for length 1
+
+
+Date:Time 2024-09-03 12:42:30
+595524975 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:14:33
+463256883 is not working: Reason: 
+Expected condition failed: waiting for visibility of all elements located by By.xpath: //span[normalize-space()='Plan & Register'] | //span[normalize-space()='Plan Schedule'] | //span[normalize-space()='View & Add 2nd Block'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\EXCELS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:4865}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:4865/devtool..., se:cdpVersion: 128.0.6613.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da205a85206bc43078ab63ba541ee86c
+
+
+Date:Time 2024-09-19 12:15:39
+074426892 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:16:48
+234279639 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:17:57
+539684357 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:19:09
+089815305 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:20:25
+406727822 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:21:29
+283703963 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:22:38
+816856953 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:23:54
+264743957 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:25:06
+396742979 is not working: Reason: 
+Errorbox / GRTerror found.
+
+
+Date:Time 2024-09-19 12:26:13
+173322145 is not working: Reason: 
+Errorbox / GRTerror found.
+
+

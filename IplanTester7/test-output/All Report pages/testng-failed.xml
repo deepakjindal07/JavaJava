@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Report pages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RecSequencing report(failed)">
+    <classes>
+      <class name="com.reportpages.RecSequencing">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="CoreSetup"/>
+          <include name="RecSequencing1"/>
+        </methods>
+      </class> <!-- com.reportpages.RecSequencing -->
+    </classes>
+  </test> <!-- RecSequencing report(failed) -->
+  <test thread-count="5" name="SubAuditErrorReport report(failed)">
+    <classes>
+      <class name="com.reportpages.SubAuditErrorReport">
+        <methods>
+          <include name="SubAuditErrorReport1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="CoreSetup"/>
+        </methods>
+      </class> <!-- com.reportpages.SubAuditErrorReport -->
+    </classes>
+  </test> <!-- SubAuditErrorReport report(failed) -->
+</suite> <!-- Failed suite [All Report pages] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Report pages" preserve-order="true">
+
+<!--	<listeners>-->
+<!--		<listener class-name="com.TestUtil.WebEventListeners" />-->
+<!--	</listeners>-->
+
+	<test name="DegreeReqReport report">
+		<classes>
+			<class name="com.reportpages.DegreeReqReport" />
+		</classes>
+	</test>
+
+	<test name="RecPlansReport report">
+		<classes>
+			<class name="com.reportpages.RecPlansReport" />
+		</classes>
+	</test>
+
+	<test name="RecSequencing report">
+		<classes>
+			<class name="com.reportpages.RecSequencing" />
+		</classes>
+	</test>
+
+	<test name="StudentGradPlanReport report">
+		<classes>
+			<class name="com.reportpages.StudentGradPlanReport" />
+		</classes>
+	</test>
+
+	<test name="SubAuditErrorReport report">
+		<classes>
+			<class name="com.reportpages.SubAuditErrorReport" />
+		</classes>
+	</test>
+
+</suite>

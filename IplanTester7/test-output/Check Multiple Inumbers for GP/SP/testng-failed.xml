@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Check Multiple Inumbers for GP/SP]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Continous Testing(failed)">
+    <classes>
+      <class name="com.studentside.CombinedTestTextFile">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestSetup"/>
+          <include name="CoreSetup"/>
+          <include name="openDeclaredPlan"/>
+        </methods>
+      </class> <!-- com.studentside.CombinedTestTextFile -->
+    </classes>
+  </test> <!-- Continous Testing(failed) -->
+</suite> <!-- Failed suite [Check Multiple Inumbers for GP/SP] -->

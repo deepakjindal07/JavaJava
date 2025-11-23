@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GP Env check test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BasicGradPlanner(failed)">
+    <classes>
+      <class name="com.studentside.BasicGradPlanner">
+        <methods>
+          <include name="TestSetup"/>
+          <include name="tearDown"/>
+          <include name="CoreSetup"/>
+          <include name="openDeclaredPlan"/>
+        </methods>
+      </class> <!-- com.studentside.BasicGradPlanner -->
+    </classes>
+  </test> <!-- BasicGradPlanner(failed) -->
+  <test thread-count="5" name="BasicSectionPlannerTest(failed)">
+    <classes>
+      <class name="com.studentside.BasicSectionPlannerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestSetup"/>
+          <include name="CoreSetup"/>
+          <include name="ClassScheduleUrlManipulcation"/>
+        </methods>
+      </class> <!-- com.studentside.BasicSectionPlannerTest -->
+    </classes>
+  </test> <!-- BasicSectionPlannerTest(failed) -->
+</suite> <!-- Failed suite [GP Env check test] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Basic Environment Test: " preserve-order="true">
+
+
+	<!--	<test name="GetLoginCookie">-->
+	<!--		<classes>-->
+	<!--			<class name="com.codesetup.GetLoginCookie" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+	<test name="BasicGradPlanner">
+		<classes>
+			<class name="com.studentside.BasicGradPlanner" />
+		</classes>
+	</test>
+
+	<!--		<test name="BasicSectionPlannerTest">-->
+	<!--		<classes>-->
+	<!--			<class name="com.studentside.BasicSectionPlannerTest" />-->
+	<!--		</classes>-->
+	<!--	</test>-->
+
+</suite>

@@ -5,12 +5,12 @@ public class Account {
 	private int balance;
 	private static Account instance = null;
 
-	private Account(){
+	private Account() {
 		balance = 0;
 	}
 
-	public static Account getInstance(){
-		if( instance == null) {
+	public static Account getInstance() {
+		if (instance == null) {
 			instance = new Account();
 		}
 		return instance;
@@ -20,7 +20,7 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public void addBalance(int balance){
+	public void addBalance(int balance) {
 		this.balance += balance;
 	}
 

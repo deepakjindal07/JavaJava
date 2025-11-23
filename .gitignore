@@ -1,3 +1,65 @@
 .metadata/
 .sonarlint/
 *.class
+########################
+# Java / Maven / Eclipse
+########################
+target/
+bin/
+.classpath
+.project
+.settings/
+*.iml
+*.class
+*.log
+*.tmp
+
+########################
+# IntelliJ / VS Code
+########################
+.idea/
+.vscode/
+out/
+*.iws
+
+########################
+# Selenium / Test Reports
+########################
+test-output/
+reports/
+Report/
+extent-report/
+ExtentReports/
+allure-results/
+allure-report/
+cucumber-report/
+cucumber-html-reports/
+surefire-reports/
+failsafe-reports/
+
+########################
+# Screenshots, videos, logs
+########################
+screenshots/
+Screenshots/
+videos/
+logs/
+*.png
+*.jpg
+*.mp4
+
+########################
+# Playwright (if used)
+########################
+playwright-report/
+test-results/
+blob-report/
+trace.zip
+*.trace
+
+########################
+# Config / Sensitive files
+########################
+.env
+*.properties.local
+credentials.json

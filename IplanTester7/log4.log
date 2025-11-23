@@ -1,8 +1,0 @@
-2024-05-09 20:51:17 [main] INFO  supportprograms.TestLogger - Navigated to Myntra website
-2024-05-09 20:51:22 [main] INFO  supportprograms.TestLogger - Clicking on 'Women' link
-2024-05-09 20:51:22 [main] INFO  supportprograms.TestLogger - 'Women' link is displayed
-2024-05-09 20:51:23 [main] INFO  supportprograms.TestLogger - Quitting the driver
-2024-05-09 20:52:37 [main] INFO  supportprograms.TestLogger - Navigated to Myntra website
-2024-05-09 20:52:42 [main] INFO  supportprograms.TestLogger - Clicking on 'Women' link
-2024-05-09 20:52:43 [main] INFO  supportprograms.TestLogger - 'Women' link is displayed
-2024-05-09 20:52:43 [main] INFO  supportprograms.TestLogger - Quitting the driver
